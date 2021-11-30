@@ -160,6 +160,12 @@
     color: cyan;
 }
 
+@media (max-width: 375px){
+    .card{
+        height: 110vw;
+    }
+}
+
 /* .head:hover ~ .eyebox{
     top: calc((100vh - 63.5vh)/2 + 17px);
 }
